@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-</article>
 <article class="ui raised segment">
 	<a class="ui teal ribbon label">
 		{% for category in page.categories %}
@@ -15,4 +14,5 @@ layout: default
 		</div>
 	</h1>
 	{{ content }}
+	{% include disqus.html %}
 </article>
