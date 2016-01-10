@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ssucom blog
+title: ssucom
 email: sumin.lee@nhnent.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -17,5 +17,16 @@ url: "http://ssucom502.github.io" # the base hostname & protocol for your site
 twitter_username: ssucom
 github_username:  ssucom502
 
+pygments: true
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+redcarpet:
+    extensions: 
+      - no_intra_emphasis
+      - fenced_code_blocks
+      - tables
+      - strikethrough
+      - superscript
+      - autolink
+      - hard_wrap

@@ -9,7 +9,7 @@ CSS FrameWork 요새 자주 쓰는 [Semantic-UI][semantic-ui] 를 사용할 계�
 
 색상 테마는 추후에 [colourlovers][cl] 에서 고르기로 하고 일단은 기본 테마
 
-한글 폰트는 'KoPub Batang' 을 사용해야지
+한글 폰트는 `KoPub Batang` 을 사용해야지
 
 [semantic-ui]: http://semantic-ui.com
 [cl]: http://www.colourlovers.com

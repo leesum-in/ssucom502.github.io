@@ -1,0 +1,1081 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mysql_re",
+				"mysql_real_escape_string"
+			],
+			[
+				"anoth",
+				"another_work_select"
+			],
+			[
+				"ano",
+				"another_work_select"
+			],
+			[
+				"craw",
+				"crawling_btn"
+			],
+			[
+				"cra",
+				"crawling_btn"
+			],
+			[
+				"fre",
+				"fregisterform"
+			],
+			[
+				"load",
+				"load_admin"
+			],
+			[
+				"aja",
+				"ajaxLoading"
+			],
+			[
+				"page",
+				"page-break-inside"
+			],
+			[
+				"page-break",
+				"page-break-after"
+			],
+			[
+				"PROFILE_TOTL",
+				"PROFILE_TOTAL_ACCESS_TIME"
+			],
+			[
+				"PROFILE_TOT",
+				"PROFILE_TOTAL_ACCESS_NO"
+			],
+			[
+				"PROFILE_L",
+				"PROFILE_LAST_ACCESS"
+			],
+			[
+				"PROFILE_HAS",
+				"PROFILE_HAS_VACCINE"
+			],
+			[
+				"PROFILE_BROW",
+				"PROFILE_BROWSER_VER"
+			],
+			[
+				"PROFILE_DEVICE",
+				"PROFILE_DEVICE_TYPE"
+			],
+			[
+				"PROFILE_TOTAL",
+				"PROFILE_TOTAL_ACCESS_NO"
+			],
+			[
+				"PRO",
+				"PROFILE_TOTAL_NO_LOGIN_FAIL"
+			],
+			[
+				"PROFILE_TO",
+				"PROFILE_TOTAL_NO_AUTH_FAIL"
+			],
+			[
+				"BR",
+				"BROWSER_VER"
+			],
+			[
+				"IS_LO",
+				"IS_LOC_SAME"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 884,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.1 Release Notes\n  \n  Package Control continues its focus on polish and fixing edge-case bugs. Some\n  of the changes in this version include:\n  \n   - quick panel for Install Package now stays open on Windows with recent\n     versions of ST3, even when focus is lost\n   - new \"downloader_precedence\" setting to allow users to use specific HTTP\n     backend due to network proxy or SSL issues\n   - added Install Local Dependency command for package developers to more\n     easily deal with dependencies during development\n   - improved handling of git/hg package upgrade errors\n   - better handling of locked .sublime-package files on Windows\n   - performance improvements for users with a large number of open windows\n  \n  For package developers, the list of available dependencies has been growing:\n  https://github.com/wbond/package_control_channel/blob/master/repository/dependencies.json\n  \n  Enjoy!\n  \n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.11.0\n\n      ## New\n\n          - Add support for Lua\n            - Rework parts of the bh_plugin API\n\n                ## Fixes\n\n                    - Document fixes\n                      - Ruby bracket improvements\n\n                        # BracketHighlighter 2.10.0\n\n                            ## New\n\n                                - Add bh_tag settings to settings dropdown\n                                  - Add more Python languages\n                                    - Add support for JSP\n                                      - Better python triple quote support string support\n                                        - Experimental block cursor mode (read docs for more info)\n\n                                            ## Fixes\n\n                                                - Fix backref's escaping of extended backrefs\n\n                                                  # BracketHighlighter 2.9.0\n\n                                                      ## New\n\n                                                          - bh_plugins can now request a bracket refresh on completion.  This fixes issue #260.\n                                                            - Allow matching with Better RSpec package\n\n                                                              # BracketHighlighter 2.8.0\n\n                                                                  ## New\n                                                                    - ure.py has been removed in favor of backrefs which adds support for numerous backrefs in regex expressions.\n                                                                      - Regex back references for upper case and lower case classes in search via `\\c` and `\\l` and the inverse can be done with `\\L` and `\\C`.\n                                                                        - Quoting/escaping can be done with `\\Q...\\E`.\n                                                                          - Unicode properties can now use verbose names such as `\\p{Uppercase_Letter}`.\n                                                                            - Inverse Unicode property support via `\\P{Lu}` or `\\P{Uppercase_Letter}`.\n                                                                              - Unicode properties are now more compact and included directly in backrefs.  The unicode cache in the User folder is no longer needed and can be removed.\n                                                                                - Better ruby do block support.\n                                                                                  - Bh_plugin settings for tag highlighting have been moved to `bh_tag.sublime-settings`.\n                                                                                    - Tag settings have been exposed for defining single tags and self closing tags via `self_closing_tags` and `single_tags`.\n                                                                                      - Better bracket support for AAAPackageDev's `yaml-tmlanguage` syntax format.\n\n                                                                                          ## Notes\n                                                                                            You can safely delete `bh_unicode_properties.cache` from your `Packages/User` folder.\n\n                                                                                                Check out documentation for more information on the new extended back reference support.\n                                                                                                ",
+			"settings":
+			{
+				"buffer_size": 7071,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 1546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_site/about/index.html",
+			"settings":
+			{
+				"buffer_size": 7541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_posts/2016-01-10-Jekyll-Custom.md",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insal",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ssucom/Documents/blog",
+		"/C/Users/ssucom/Documents/blog/_includes",
+		"/C/Users/ssucom/Documents/blog/_layouts",
+		"/C/Users/ssucom/Documents/blog/_posts",
+		"/C/Users/ssucom/Documents/blog/_site/css",
+		"/C/Users/ssucom/Documents/blog/_site/jekyll/2016",
+		"/C/Users/ssucom/Documents/blog/_site/jekyll/2016/01",
+		"/C/Users/ssucom/Documents/blog/_site/jekyll/2016/01/10",
+		"/C/Users/ssucom/Documents/blog/css",
+		"/C/Users/ssucom/Documents/blog/js",
+		"/C/Users/ssucom/semantic/dist",
+		"/C/Users/ssucom/semantic/src",
+		"/C/Users/ssucom/semantic/src/definitions",
+		"/C/Users/ssucom/semantic/src/definitions/globals",
+		"/C/Users/ssucom/semantic/src/themes",
+		"/C/Users/ssucom/semantic/src/themes/duo",
+		"/C/Users/ssucom/semantic/src/themes/ssucom",
+		"/C/Users/ssucom/semantic/src/themes/ssucom/globals",
+		"/C/Users/ssucom/semantic/tasks"
+	],
+	"file_history":
+	[
+		"/C/Users/ssucom/semantic/src/themes/ssucom/globals/site.overrides",
+		"/C/Users/ssucom/semantic/src/themes/ssucom/globals/site.variables",
+		"/C/Users/ssucom/Documents/blog/js/main.js",
+		"/C/Users/ssucom/Documents/blog/_posts/2016-01-10-Jekyll-Custom.md",
+		"/C/Users/ssucom/Documents/blog/.gitignore",
+		"/C/Users/ssucom/Documents/blog/blog.sublime-project",
+		"/C/Users/ssucom/semantic/src/theme.config",
+		"/C/Users/ssucom/Documents/blog/_posts/2016-01-10-welcome-to-jekyll.markdown",
+		"/C/Users/ssucom/Documents/blog/_includes/head.html",
+		"/C/Users/ssucom/Documents/blog/css/main.css",
+		"/C/Users/ssucom/Documents/blog/_site/jekyll/2016/01/10/Jekyll-커스텀-계획.html",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/server.py",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/static/css/common.css",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/templates/work.html",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/reg_first.py",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/search.py",
+		"/C/Users/ssucom/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ssucom/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/templates/login.html",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/sftp-config.json",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/insert_dummy.py",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/hello.py",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/static/css/semantic.min.css",
+		"/C/Users/ssucom/Desktop/작업공간/naver_market/static/js/semantic.min.js",
+		"/C/Users/ssucom/Desktop/eclipse-committers-mars-1-win32-x86_64/eclipse/eclipse.ini",
+		"/C/Users/ssucom/Desktop/작업공간/waze-crawler/ajax/delete_loc.php",
+		"/C/Users/ssucom/Desktop/작업공간/waze-crawler/ajax/get_loc.php",
+		"/C/Users/ssucom/Desktop/작업공간/waze-crawler/libs/database.php",
+		"/C/Users/ssucom/Desktop/작업공간/waze-crawler/Snoopy.class.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/skin/board/basic/test.js",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/js/shop.js",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/shop/cartoption.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/lib/shop.lib.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/shop/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/shop/iteminfo.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/shop/item.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/lib/thumbnail.lib.php",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/sftp-config.json",
+		"/C/Users/ssucom/Desktop/작업공간/leathereffiel/skin/shop/shopcuoio/topmenu.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/shop_basic/style.css",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/basic/latest.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/topmenu.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/lib/shop.lib.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/install/gnuboard5shop.sql",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/adm/shop_admin/configformupdate.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/adm/config_form.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/main.10.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/shop/cartupdate.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/adm/shop_admin/orderform.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/adm/shop_admin/orderlistdelete.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/lib/shop.lib.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/adm/shop_admin/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/tab_latest/latest.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/basic/style.css",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/head.sub.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/shop/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/css/default_shop.css",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/js/jquery.shop.topmenu.js",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/dist/slippry.css",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/sftp-config.json",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/style.css",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/head.sub.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/shop/shop.head.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/shop/list.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/js/common.js",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/tab_latest/tab_latest/latest.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/tab.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/latest/tab_latest/tab.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/list.10.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/shopcuoio/skin/shop/shopcuoio/listcategory.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/basic/main.10.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/ouniouni/boxtodayview.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/shop/cart.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/basic/boxtodayview.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/js/scroll_oldie.js",
+		"/C/Users/ssucom/Desktop/작업공간/main.10.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/youngcart5.0.25/yc5-5.0.25/shop/shop.head.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/ouniouni/mainbanner.11.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/basic/basic/css/style.css",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/ouniouni/boxbanner.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/config.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/sftp-config.json",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/ouniouni/boxcategory.navbar.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/head.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/skin/shop/ouniouni/boxcategory.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/gnu/css/default_shop.css",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/register_update.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/register_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest_kmc/register_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/kmcis/kmcis_web_sample_step04.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/kmcis/kmcis_web_sample_step03.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/kmcis/kmcis_web_sample_step02.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest_kmc/register_fb_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/bbs/register_fb_form.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/register_fb_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/register_fb_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/login.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/bbs/login_check_fb.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/head.sub.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest/ajax_mb_email_check.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/login.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/register.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/register_form.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/login_check.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/memo.skin - Copy.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/bbs/login_check_fb.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/kmcis/kmcis_web_sample_step01.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest_kmc/login.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/bbs/register_fb_form.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/bbs/register_fb_form_update.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest/login.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/bbs/login.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/common.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/skin/member/basic_forest_kmc/_common.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/bbs/login_check.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/index.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/bbs/register_form.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/kmcis/register_kmcis_step01.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest/kmcis/kmcis_web_sample_step02.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest_kmc/kmcis/_common.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/skin/member/basic_forest/register.skin.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/bbs/register.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/bbs/register.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/m/head.sub.php",
+		"/C/Users/ssucom/Desktop/작업공간/moitdo/_head.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\leathereffiel\\",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\leathereffiel\\shop",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\leathereffiel\\js",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\leathereffiel\\shop",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\leathereffiel\\skin",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\shopcuoio\\shop\\",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\shopcuoio",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\gnu",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\skin\\member\\basic_forest\\kmcis",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\newfb",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\m\\",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\m\\skin\\member\\",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\m\\skin\\member\\basic_forest_kmc",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo",
+			"C:\\Users\\ssucom\\Desktop\\작업공간\\moitdo\\m\\skin\\member\\basic_forest_kmc",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-family",
+			"font",
+			"default",
+			"%s",
+			"nThumbsUp",
+			"ThumbsUp",
+			"%s",
+			"s",
+			"button",
+			"div",
+			"job_title",
+			"update",
+			"url",
+			"post_key",
+			"limit",
+			"execute",
+			"job",
+			"on",
+			"insert int",
+			"work_tf",
+			"error",
+			"h5",
+			"	",
+			"    ",
+			"tablet",
+			"tab",
+			"                        ",
+			"                       ",
+			"                      ",
+			"                     ",
+			"                    ",
+			"                   ",
+			"                  ",
+			"                 ",
+			"                ",
+			"               ",
+			"              ",
+			"             ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"j_idx",
+			"work_del",
+			"logout",
+			"work_del",
+			"/api/search_job",
+			"search_page",
+			"span",
+			"a>",
+			"<a",
+			"a",
+			"data",
+			"휴대폰",
+			"h3",
+			"핸드폰",
+			"raised",
+			"user_",
+			"g.user",
+			"specs",
+			"init_db",
+			"endTimeMillis",
+			"start",
+			"_POST",
+			"exception",
+			"settings.data",
+			"name",
+			"Database",
+			"Nan",
+			"btn02",
+			"btn_02",
+			"#bo_v_table",
+			"sit_ov",
+			"증가",
+			"get_item_options",
+			"option_item",
+			"증가",
+			"올바른",
+			"frm_input",
+			"증가",
+			"Animated",
+			"width",
+			"get_it_",
+			"delay",
+			"#B2EBF4",
+			"#997000",
+			"997000",
+			"#99CC00",
+			"2",
+			"<td>",
+			"td",
+			"<img src=\"<?php echo G5_SHOP_SKIN_URL; ?>/img/picker/",
+			"4",
+			"Nanum",
+			"나눔 고딕",
+			"$w",
+			"$g5['title'] ",
+			"상품리스트",
+			"$g5['title']",
+			"bt",
+			"sit_opt",
+			"default",
+			"de_mimg_width",
+			"70",
+			"g\"></",
+			"d><img",
+			"icon",
+			"icon_best",
+			"display_price",
+			"display",
+			"'원'",
+			"display_price",
+			"number_format",
+			"display_price",
+			"price",
+			"view_it_price",
+			"-XX:MaxPermSize=256m",
+			"cost"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1403,
+								2127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10454.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_layouts/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1069,
+								1069
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_site/about/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								496,
+								496
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_posts/2016-01-10-Jekyll-Custom.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.469078947368,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 444.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"step04",
+				"skin\\member\\basic_forest\\kmcis\\kmcis_web_sample_step04.php"
+			],
+			[
+				"kmcis_web_",
+				"skin\\member\\basic_forest\\kmcis\\kmcis_web_sample_step03.php"
+			],
+			[
+				"_common.php",
+				"_common.php"
+			],
+			[
+				"kmcis",
+				"skin\\member\\basic_forest\\kmcis\\kmcis_web_sample_step02.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 400.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
