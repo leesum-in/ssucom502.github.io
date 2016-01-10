@@ -4,7 +4,7 @@ layout: default
 
 <div class="ui divided items">
   {% for post in site.posts %}
-  <a class="item" href="{{ post.url | prepend: site.baseurl }}">
+  <a class="item" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
     <div class="content">
       <div class="header">{{ post.title }}</div>
       <div class="meta">
