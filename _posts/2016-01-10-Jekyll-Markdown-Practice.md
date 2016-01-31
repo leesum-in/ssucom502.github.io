@@ -36,4 +36,4 @@ __두껍게__
 
 ~~Strike?~~
 
-<iframe width="600"height="740"src="http://localhost:8080/oneq/i#16/0"frameborder="0"></iframe>
+<iframe width="650"height="1051"src="http://alpha-oneq.nhnent.com/i#12/2"frameborder="0"></iframe>
