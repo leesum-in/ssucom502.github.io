@@ -14,5 +14,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ssucom502.github.io" # the base hostname & protocol for your site
 github_username:  ssucom502
 
+-markdown: redcarpet
 #highlighter: pygments
 # Build settings
