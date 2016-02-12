@@ -35,5 +35,3 @@ __두껍게__
 ***
 
 ~~Strike?~~
-
-<iframe width="650"height="1051"src="http://alpha-oneq.nhnent.com/i#12/0"frameborder="0"></iframe>
