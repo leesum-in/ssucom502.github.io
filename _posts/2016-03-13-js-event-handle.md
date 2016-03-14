@@ -9,7 +9,7 @@ categories: javascript
 아래와 같은 html 문서가 있다고 할 때, 웹브라우저에서 hi를 클릭하게 되면 `MouseEvent`가 생성됩니다.
 
 
-```html
+```
 	<!DOCTYPE html>
 	<html>
 	<head>
