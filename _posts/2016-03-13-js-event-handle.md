@@ -7,21 +7,23 @@ categories: javascript
 자바스크립트 이벤트 전파에서 버블링과 캡쳐링 개념이 매우 헷갈렸는데, 제가 이해한 개념을 공유하고자 합니다.
 
 아래와 같은 html 문서가 있다고 할 때, 웹브라우저에서 hi를 클릭하게 되면 `MouseEvent`가 생성됩니다.
+
+
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
-<ul>
-	<li>
-    	<p>hi</p>
-    </li>
-</ul>
-</body>
-</html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	<ul>
+		<li>
+	    	<p>hi</p>
+	    </li>
+	</ul>
+	</body>
+	</html>
 ```
 `MouseEvent`의 이벤트타겟은 `<p>`가 될 것입니다. 
 
