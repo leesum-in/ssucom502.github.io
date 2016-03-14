@@ -10,20 +10,20 @@ categories: javascript
 
 
 ```
-	<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-	<ul>
-		<li>
-	    	<p>hi</p>
-	    </li>
-	</ul>
-	</body>
-	</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<ul>
+	<li>
+    	<p>hi</p>
+    </li>
+</ul>
+</body>
+</html>
 ```
 `MouseEvent`의 이벤트타겟은 `<p>`가 될 것입니다. 
 
@@ -42,7 +42,9 @@ categories: javascript
 
 이렇게 될 것입니다. 
 여기서 다음과 같은 자바스크립트는
-```javascript
+
+
+```
 document.addEventListener("click", function() {
 	console.log("document in");
 }, true);
@@ -51,17 +53,23 @@ document.addEventListener("click", function() {
 
 내려가는 길의 `document`정류장에서 `MouseEvent` 버스를 기다리겠다는 것이고,
 다음과 같은 소스는
-```javascript
+
+
+```
 document.addEventListener("click", function() {
 	console.log("document in");
 }, false);
 ```
+
+
 > 내려가는 것을 캡쳐링, 올라가는 것을 버블링 이라고 합니다.
 > 구버전 ie는 버블링만 지원하기 때문에 eventListener의 Default 값으로 false로 세팅 되어 있습니다.
 
 
 올라오는 길의 `document` 정류장에서 `MouseEvent` 버스를 기다리겠다는 것입니다. 
 물론 한 소스내에서 두가지의 이벤트리스너는 둘다 등록 가능합니다. 엄밀히 둘은 다른 정류장이니까요..
+
+
 
 그리고 이벤트의 전파를 막는 `stopPropagation` 은 자기 정류장에서 버스 기사를 ~~죽여(?)~~ 더이상 버스를 움직이지 않게 한다고 이해할 수 있겠습니다.
 
