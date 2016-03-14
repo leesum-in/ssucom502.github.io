@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "자바스크립트 이벤트에 대한 이해"
+title: "자바스크립트 이벤트전파에 대한 이해"
 date: 2016-03-13 19:46:00
 categories: javascript
 ---
