@@ -36,7 +36,7 @@ categories: javascript
 - 4. li
 
 이를 그림으로 표현한다면, 
-![image](ssucom502.github.io/img/event.png)
+![image](http://ssucom502.github.io/img/event.png)
 
 
 
