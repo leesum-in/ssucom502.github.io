@@ -1,6 +1,7 @@
 @charset "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 body, button, input, select, textarea {
-  font-family: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif; }
+  font-family: "KoPub Batang", serif; }
 
 a.tag.article-tag {
   font-size: 0.9rem;
